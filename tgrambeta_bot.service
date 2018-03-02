@@ -1,0 +1,10 @@
+[Unit]
+Description=Telegram Bot Telegram Beta
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 home/zlyfer/tgrambeta_bot/tgrambeta_bot.py
+
+[Install]
+WantedBy=multi-user.target
