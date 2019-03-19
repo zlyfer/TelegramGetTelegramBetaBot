@@ -11,7 +11,7 @@ os.chdir("/home/zlyfer/TelegramBots/TelegramGetTelegramBetaBot/")
 
 with codecs.open('token', 'r', 'utf-8') as bot_token_file:
     bot_token = bot_token_file.read()
-updater = Updater(token=bot_token)
+updater = Updater(token=bot_token.replace("\n", ""))
 
 tgrambetaapk_file = codecs.open('file_id', 'r')
 global tgrambetaapk_file_id
