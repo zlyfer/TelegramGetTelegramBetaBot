@@ -9,7 +9,9 @@ logging.basicConfig(format="\n%(levelname)s: @'%(asctime)s' in '%(name)s':\n> %(
 import os
 os.chdir("/home/zlyfer/TelegramBots/TelegramGetTelegramBetaBot/")
 
-updater = Updater(token=open('token', 'r').readline())
+with codecs.open('token', 'r', 'utf-8') as bot_token_file:
+    bot_token = bot_token_file.read()
+updater = Updater(token=bot_token)
 
 tgrambetaapk_file = codecs.open('file_id', 'r')
 global tgrambetaapk_file_id
