@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(format="\n%(levelname)s: @'%(asctime)s' in '%(name)s':\n> %(message)s", level=logging.INFO)
 
 import os
-os.chdir("/home/zlyfer/TelegramBots/tgrambeta_bot/")
+os.chdir("/home/zlyfer/TelegramBots/TelegramGetTelegramBetaBot/")
 
 updater = Updater(token=open('token', 'r').readline())
 
