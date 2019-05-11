@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram Bot Telegram Beta NodeJS
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/nodejs home/zlyfer/TelegramBots/TelegramGetTelegramBetaBot/tgrambeta_bot.js
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

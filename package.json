@@ -1,0 +1,27 @@
+{
+  "name": "gettelegrambetabot",
+  "version": "2.0.0",
+  "description": "Send the Telegram Beta APK File",
+  "main": "tgrambeta_bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlyfer/TelegramGetTelegramBetaBot.git"
+  },
+  "keywords": [
+    "Telegram",
+    "Beta",
+    "Bot"
+  ],
+  "author": "Frederik 'zlyfer' Shull",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/zlyfer/TelegramGetTelegramBetaBot/issues"
+  },
+  "homepage": "https://github.com/zlyfer/TelegramGetTelegramBetaBot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
