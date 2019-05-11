@@ -58,8 +58,8 @@ function downloadApk() {
 }
 
 function addUser(chatId, langCode) {
-	let { users } = require("./users.json");
-	users[chatId] = langCode;
+	let users = require("./users.json");
+	users.users[chatId] = langCode;
 	fs.writeFileSync("./users.json", JSON.stringify(users));
 }
 
@@ -67,11 +67,11 @@ bot.on("text", message => {
 	const chatId = message.chat.id;
 	const text = message.text;
 	const langCode = message.from.language_code;
-	if (locals[langCode]) {
-		const local = locals[langCode];
-	} else {
-		const local = locals.en;
-	}
+	const local = locals[langCode] || locals.en;
+
+	bot.sendMessage(console_chat_id, `<strong>${message.chat.username}/${message.chat.first_name}/${chatId}/${langCode}</strong>: <i>${text}</i>`, {
+		parse_mode: "HTML"
+	});
 	addUser(chatId, langCode);
 
 	switch (text) {
