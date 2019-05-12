@@ -47,7 +47,7 @@ function downloadApk() {
 							bot.sendDocument(console_chat_id, apkfileStream).then(message => {
 								fileId = message.document.file_id;
 								fs.writeFileSync("./fileId.json", `{"fileId": "${message.document.file_id}"}`);
-								setTimeout(downloadApk, 3600000);
+								setTimeout(downloadApk, 24 * 3600000);
 							});
 						});
 					});
