@@ -10,6 +10,7 @@ const { locals } = require("./locals.json");
 
 var fileId = require("./fileId.json").fileId;
 downloadApk();
+setInterval(downloadApk, 24 * 3600000);
 
 function downloadApk() {
 	let url = "https://rink.hockeyapp.net/apps/f972660267c948d2b5d04761f1c1a8f3";
@@ -47,7 +48,6 @@ function downloadApk() {
 							bot.sendDocument(console_chat_id, apkfileStream).then(message => {
 								fileId = message.document.file_id;
 								fs.writeFileSync("./fileId.json", `{"fileId": "${message.document.file_id}"}`);
-								setTimeout(downloadApk, 24 * 3600000);
 							});
 						});
 					});
