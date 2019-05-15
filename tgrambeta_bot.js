@@ -2,7 +2,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 const https = require("https");
 const fs = require("fs");
-const token = require("./token.json").token_;
+const token = require("./token.json").token;
 
 const bot = new TelegramBot(token, { polling: true });
 const console_chat_id = "-248828335";
