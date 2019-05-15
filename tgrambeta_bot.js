@@ -2,7 +2,7 @@
 const TelegramBot = require("node-telegram-bot-api");
 const https = require("https");
 const fs = require("fs");
-const token = require("./token.json").token;
+const token = require("./token.json").token_;
 
 const bot = new TelegramBot(token, { polling: true });
 const console_chat_id = "-248828335";
@@ -10,7 +10,9 @@ const { locals } = require("./locals.json");
 
 var fileId = require("./fileId.json").fileId;
 downloadApk();
-setInterval(downloadApk, 24 * 3600000);
+setInterval(function() {
+	downloadApk();
+}, 21600000);
 
 function downloadApk() {
 	let url = "https://rink.hockeyapp.net/apps/f972660267c948d2b5d04761f1c1a8f3";
