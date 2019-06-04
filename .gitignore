@@ -1,5 +1,7 @@
 # Obvious
 node_modules
+.vscode
+.idea
 
 # Configuration Files
 token.json

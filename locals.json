@@ -1,70 +1,81 @@
 {
-	"locals": {
-		"en": {
-			"start": "<strong>Hello!</strong>\n\nClick on the Keyboard-Button to get the Telegram-Beta APK.\n<strong>Have fun!</strong>\n\n<strong>Info:</strong> <i>This bot only supports</i> <strong>Android OS</strong>.\n\nIf you are facing <strong>any issues</strong>, have ideas for <strong>making the bot better</strong> or want to provide <strong>translation</strong> for the bot, feel free to <strong>contact</strong> @zlyfer.",
-			"send": "Here you are!\n\nAfter installation, you will get all updates through the Telegram-Beta App.\nFeel free to share this bot. 😇",
-			"unknown": "Sorry, I did not understand this.\n\nPlease use /start to start the bot and use the provided Keyboard-Button.",
-			"file": "Telegram Beta APK updated.\nNew FileID is:",
-			"denied": "You are <strong>not allowed</strong> to update the <strong>APK-File</strong>!",
-			"button": "Download Telegram Beta",
-			"select": "Please select a language:",
-			"flag": "🇺🇸🇬🇧",
-			"languagename": "English"
-		},
-		"de": {
-			"start": "<strong>Hallo!</strong>\n\nDrücke auf den Tastatur-Knopf um die Telegram-Beta-APK zu bekommen.\n<strong>Viel Spaß!</strong>\n\n<strong>Info:</strong> <i>Dieser Bot unterstützt nur</i> <strong>Android OS</strong>.\n\nWenn du irgendwelche <strong>Probleme</strong>, Ideen um den <strong>Bot besser zu machen</strong> hast oder bei der <strong>Übersetzung</strong> helfen willst, kannst du mich gerne <strong>anschreiben:</strong> @zlyfer.",
-			"send": "Bitte sehr!\n\nSobald du die Beta installiert hast, erhälst du Beta-Updates durch die Telegram-Beta App.\nDu kannst diesen Bot gerne teilen. 😇",
-			"unknown": "Es tut mir leid, das habe ich nicht verstanden.\n\nBitte benutze /start um den Bot zu starten und benutze den Tastatur-Knopf.",
-			"file": "Telegram Beta APK geupdatet.\nNeue FileID ist:",
-			"denied": "Du bist <strong>nicht berechtigt</strong>, um die <strong>APK-Datei</strong> zu updaten!",
-			"button": "Lade Telegram Beta",
-			"select": "Bitte wähle eine Sprache:",
-			"flag": "🇩🇪",
-			"languagename": "Deutsch"
-		},
-		"ru": {
-			"start": "<strong>Здравствуйте!</strong>\n\nНажмите на Inline-кнопку чтобы получить APK тестовой версии Telegram.\n<strong>Удачи!</strong>\n\n<strong>Информация:</strong> <i>Этот бот поддерживает только</i> <strong>ОС Android</strong>.\n\nЕсли у Вас есть <strong>какие-либо трудности</strong>, идеи <strong>для улучшения бота</strong> или желание <strong>перевести</strong> его в на ваш язык, тогда <strong>обращайтесь</strong> к @zlyfer.",
-			"send": "Готово!\n\nПосле установки, Вы будете получать все обновления через тестовую версию приложения Telegram.\nПоделитесь этим ботом с друзьями. 😇",
-			"unknown": "Извините, я Вас не понял.\n\nПожалуйста, используйте команду /start чтобы начать использовать бота и воспользуйтесь предоставленной Inline-кнопкой.",
-			"file": "Тестовая версия Telegram обновилась.\nНовый идентификатор файла:",
-			"denied": "У Вас <strong>нет прав</strong> для обновления <strong>APK-Файла</strong>!",
-			"button": "Скачать Telegram Beta",
-			"select": "Выберите язык:",
-			"flag": "🇷🇺",
-			"languagename": "Русский"
-		},
-		"uk": {
-			"start": "<strong>Здравствуйте!</strong>\n\nНатисніть на Inline-кнопку щоб отримати Telegram-Beta APK.\n<strong>Щасти!</strong>\n\n<strong>Інформація:</strong> <i>Цей бот підтримує лише</i> <strong>ОС Android</strong>.\n\nЯкщо у Вас виникли <strong>будь-які проблеми</strong>, або Ви маєте ідеї <strong>для покращення бота</strong> чи хочете <strong>перевести</strong> бота (покращити переклад), <strong>звертайтеся</strong> до мене: @zlyfer.",
-			"send": "Тримайте!\n\nПісля інсталяції Ви будете отримувати усі оновлення через додаток Telegram-Beta.\nПоділіться цим ботом з іншими. 😇",
-			"unknown": "Вибачте, я цього не зрозумів.\n\nБудьласка, використовуйте команду /start щоб запустити бота і використовуйте надану Inline-кнопку.",
-			"file": "Telegram Beta оновився.\nНовий ідентифікатор файлу:",
-			"denied": "Ви <strong>не маєте дозволу</strong> на оновлення <strong>APK-Файлу</strong>!",
-			"button": "Завантажити Telegram Beta",
-			"select": "Будь ласка, виберіть мову:",
-			"flag": "🇺🇦",
-			"languagename": "Yкраїнський"
-		},
-		"pt-br": {
-			"start": "<strong>Olá</strong>\n\nClique no botão do teclado para baixar o APK do Telegram Beta.\n<strong>Divirta-se!</strong>\n\n<strong>Informação:</strong> <i>Este bot suporta apenas</i> <strong>Android OS</strong>.\n\nSe você encontrar <strong>algum erro</strong>, tiver ideias a fim de <strong>tornar o bot melhor</strong> ou quiser ajudar a <strong>traduzir</strong> o bot, sinta-se à vontade para <strong>contatar</strong> o @zlyfer.",
-			"send": "Aqui está!\n\nApós a instalação, você receberá as atualizações no próprio aplicativo do Telegram Beta.\nSinta-se à vontade para compartilhar esse bot. 😇",
-			"unknown": "Desculpe, não entendi isso.\n\nPor favor, use o comando /start para iniciar o bot e use o botão do teclado.",
-			"file": "O APK do Telegram Beta foi atualizado.\nA nova identificação do arquivo é:",
-			"denied": "Você <strong>não tem permissão</strong> para atualizar o <strong>arquivo APK</strong>!",
-			"button": "Baixar o Telegram Beta",
-			"select": "Selecione um idioma:",
-			"flag": "🇵🇹",
-			"languagename": "Português"
-		},
-		"tr": {
-			"start": "<strong>Merhaba!</strong>\n\nButona tıklayarak Telegram Beta-APK indir.\n<strong>İyi Eğlenceler!</strong>\n\n<strong>Bilgi:</strong> <i>Bu bot sadece</i> <strong>Android Kullanıcıları içindir.</strong>.\n\nEğer bize katkı yapmak <strong>any issues</strong>, yardım etmek <strong>ve botu daha iyi hale getirmek istiyorsan</strong> bunun için <strong>çeviri</strong> yapabilirsin, istediğin zaman benimle <strong>iletişime geçebilirsin</strong> @zlyfer.",
-			"send": "İşte burdasın!\n\nYüklemeden önce bilmen gerekir ki, Telegram-Beta versiyonu henüz orjinal sürüme gelmeyen özellikler barındırır.\nEğer istersen bu botu arkadaşlarınla paylaşabilirsin. 😇",
-			"unknown": "Üzgünüm bunu anlamadım.\n\nLütfen /start komutunu kullanarak botu başlatın ve butonlardan istediğinizi seçin.",
-			"file": "Telegram Beta versiyonu güncellendi.\nYeni Dosya Kimliği:",
-			"denied": "Buna <strong>izin yok</strong> , öncelikle <strong>APK dosyasını</strong> güncelleyin!",
-			"button": "Telegram Beta Versiyon İndir",
-			"select": "Lütfen Dilinizi Seçin:",
-			"flag": "🇹🇷",
-			"languagename": "Türkçe"
-		}
-	}
+ "locals": {
+  "en": {
+   "start": "<strong>Hello!</strong>\n\nClick on the Keyboard-Button to get the Telegram-Beta APK.\n<strong>Have fun!</strong>\n\n<strong>Info:</strong> <i>This bot only supports</i> <strong>Android OS</strong>.\n\nIf you are facing <strong>any issues</strong>, have ideas for <strong>making the bot better</strong> or want to provide <strong>translation</strong> for the bot, feel free to <strong>contact</strong> @zlyfer.",
+   "send": "Here you are!\n\nAfter installation, you will get all updates through the Telegram-Beta App.\nFeel free to share this bot. 😇",
+   "unknown": "Sorry, I did not understand this.\n\nPlease use /start to start the bot and use the provided Keyboard-Button.",
+   "file": "Telegram Beta APK updated.\nNew FileID is:",
+   "denied": "You are <strong>not allowed</strong> to update the <strong>APK-File</strong>!",
+   "button": "Download Telegram Beta",
+   "select": "Please select a language:",
+   "flag": "🇺🇸🇬🇧",
+   "languagename": "English"
+  },
+  "de": {
+   "start": "<strong>Hallo!</strong>\n\nDrücke auf den Tastatur-Knopf um die Telegram-Beta-APK zu bekommen.\n<strong>Viel Spaß!</strong>\n\n<strong>Info:</strong> <i>Dieser Bot unterstützt nur</i> <strong>Android OS</strong>.\n\nWenn du irgendwelche <strong>Probleme</strong>, Ideen um den <strong>Bot besser zu machen</strong> hast oder bei der <strong>Übersetzung</strong> helfen willst, kannst du mich gerne <strong>anschreiben:</strong> @zlyfer.",
+   "send": "Bitte sehr!\n\nSobald du die Beta installiert hast, erhälst du Beta-Updates durch die Telegram-Beta App.\nDu kannst diesen Bot gerne teilen. 😇",
+   "unknown": "Es tut mir leid, das habe ich nicht verstanden.\n\nBitte benutze /start um den Bot zu starten und benutze den Tastatur-Knopf.",
+   "file": "Telegram Beta APK geupdatet.\nNeue FileID ist:",
+   "denied": "Du bist <strong>nicht berechtigt</strong>, um die <strong>APK-Datei</strong> zu updaten!",
+   "button": "Lade Telegram Beta",
+   "select": "Bitte wähle eine Sprache:",
+   "flag": "🇩🇪",
+   "languagename": "Deutsch"
+  },
+  "ru": {
+   "start": "<strong>Здравствуйте!</strong>\n\nНажмите на Inline-кнопку чтобы получить APK тестовой версии Telegram.\n<strong>Удачи!</strong>\n\n<strong>Информация:</strong> <i>Этот бот поддерживает только</i> <strong>ОС Android</strong>.\n\nЕсли у Вас есть <strong>какие-либо трудности</strong>, идеи <strong>для улучшения бота</strong> или желание <strong>перевести</strong> его в на ваш язык, тогда <strong>обращайтесь</strong> к @zlyfer.",
+   "send": "Готово!\n\nПосле установки, Вы будете получать все обновления через тестовую версию приложения Telegram.\nПоделитесь этим ботом с друзьями. 😇",
+   "unknown": "Извините, я Вас не понял.\n\nПожалуйста, используйте команду /start чтобы начать использовать бота и воспользуйтесь предоставленной Inline-кнопкой.",
+   "file": "Тестовая версия Telegram обновилась.\nНовый идентификатор файла:",
+   "denied": "У Вас <strong>нет прав</strong> для обновления <strong>APK-Файла</strong>!",
+   "button": "Скачать Telegram Beta",
+   "select": "Выберите язык:",
+   "flag": "🇷🇺",
+   "languagename": "Русский"
+  },
+  "uk": {
+   "start": "<strong>Здравствуйте!</strong>\n\nНатисніть на Inline-кнопку щоб отримати Telegram-Beta APK.\n<strong>Щасти!</strong>\n\n<strong>Інформація:</strong> <i>Цей бот підтримує лише</i> <strong>ОС Android</strong>.\n\nЯкщо у Вас виникли <strong>будь-які проблеми</strong>, або Ви маєте ідеї <strong>для покращення бота</strong> чи хочете <strong>перевести</strong> бота (покращити переклад), <strong>звертайтеся</strong> до мене: @zlyfer.",
+   "send": "Тримайте!\n\nПісля інсталяції Ви будете отримувати усі оновлення через додаток Telegram-Beta.\nПоділіться цим ботом з іншими. 😇",
+   "unknown": "Вибачте, я цього не зрозумів.\n\nБудьласка, використовуйте команду /start щоб запустити бота і використовуйте надану Inline-кнопку.",
+   "file": "Telegram Beta оновився.\nНовий ідентифікатор файлу:",
+   "denied": "Ви <strong>не маєте дозволу</strong> на оновлення <strong>APK-Файлу</strong>!",
+   "button": "Завантажити Telegram Beta",
+   "select": "Будь ласка, виберіть мову:",
+   "flag": "🇺🇦",
+   "languagename": "Yкраїнський"
+  },
+  "pt-br": {
+   "start": "<strong>Olá</strong>\n\nClique no botão do teclado para baixar o APK do Telegram Beta.\n<strong>Divirta-se!</strong>\n\n<strong>Informação:</strong> <i>Este bot suporta apenas</i> <strong>Android OS</strong>.\n\nSe você encontrar <strong>algum erro</strong>, tiver ideias a fim de <strong>tornar o bot melhor</strong> ou quiser ajudar a <strong>traduzir</strong> o bot, sinta-se à vontade para <strong>contatar</strong> o @zlyfer.",
+   "send": "Aqui está!\n\nApós a instalação, você receberá as atualizações no próprio aplicativo do Telegram Beta.\nSinta-se à vontade para compartilhar esse bot. 😇",
+   "unknown": "Desculpe, não entendi isso.\n\nPor favor, use o comando /start para iniciar o bot e use o botão do teclado.",
+   "file": "O APK do Telegram Beta foi atualizado.\nA nova identificação do arquivo é:",
+   "denied": "Você <strong>não tem permissão</strong> para atualizar o <strong>arquivo APK</strong>!",
+   "button": "Baixar o Telegram Beta",
+   "select": "Selecione um idioma:",
+   "flag": "🇵🇹",
+   "languagename": "Português"
+  },
+  "tr": {
+   "start": "<strong>Merhaba!</strong>\n\nButona tıklayarak Telegram Beta-APK indir.\n<strong>İyi Eğlenceler!</strong>\n\n<strong>Bilgi:</strong> <i>Bu bot sadece</i> <strong>Android Kullanıcıları içindir.</strong>.\n\nEğer bize katkı yapmak <strong>any issues</strong>, yardım etmek <strong>ve botu daha iyi hale getirmek istiyorsan</strong> bunun için <strong>çeviri</strong> yapabilirsin, istediğin zaman benimle <strong>iletişime geçebilirsin</strong> @zlyfer.",
+   "send": "İşte burdasın!\n\nYüklemeden önce bilmen gerekir ki, Telegram-Beta versiyonu henüz orjinal sürüme gelmeyen özellikler barındırır.\nEğer istersen bu botu arkadaşlarınla paylaşabilirsin. 😇",
+   "unknown": "Üzgünüm bunu anlamadım.\n\nLütfen /start komutunu kullanarak botu başlatın ve butonlardan istediğinizi seçin.",
+   "file": "Telegram Beta versiyonu güncellendi.\nYeni Dosya Kimliği:",
+   "denied": "Buna <strong>izin yok</strong> , öncelikle <strong>APK dosyasını</strong> güncelleyin!",
+   "button": "Telegram Beta Versiyon İndir",
+   "select": "Lütfen Dilinizi Seçin:",
+   "flag": "🇹🇷",
+   "languagename": "Türkçe"
+  },
+  "it": {
+   "start": "<strong>Ciao!</strong>\n\nClicca sul Pulsante-Tastiera per avere l'APK di Telegram-Beta.\n<strong>Divertiti!</strong>\n\n<strong>Info:</strong> <i>Questo bot supporta solo </i> <strong>Dispositivi Android</strong>.\n\nSe stai avendo <strong>qualche problema</strong>, hai qualche idea per <strong>rendere il bot migliore </strong> o vuoi fornire <strong>traduzioni</strong> per il bot, sentiti libero di <strong>contattare</strong> @zlyfer.",
+   "send": "Ci sei!\n\nDopo l'installazione, riceverai tutti gli aggiornamenti dall'App di Telegram-Beta.\nSentiti libero di condividere questo bot. 😇",
+   "unknown": "Scusa, non ho riconosciuto questo.\n\nPer favore, usa /start per avviare il bot e usa il Pulsante-Tastiera fornito.",
+   "file": "File APK di Telegram Beta aggiornato.\nNew FileID is:",
+   "denied": "Tu <strong>Non hai il permesso</strong> di aggiornare il <strong>File-APK</strong>!",
+   "button": "Scarica Telegram Beta",
+   "select": "Per favore, scegli una lingua:",
+   "flag": "🇮🇹",
+   "languagename": "Italiano"
+  }
+ }
 }
