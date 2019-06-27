@@ -9,7 +9,8 @@
    "button": "Download Telegram Beta",
    "select": "Please select a language:",
    "flag": "🇺🇸🇬🇧",
-   "languagename": "English"
+   "languagename": "English",
+   "code": "en"
   },
   "de": {
    "start": "<strong>Hallo!</strong>\n\nDrücke auf den Tastatur-Knopf um die Telegram-Beta-APK zu bekommen.\n<strong>Viel Spaß!</strong>\n\n<strong>Info:</strong> <i>Dieser Bot unterstützt nur</i> <strong>Android OS</strong>.\n\nWenn du irgendwelche <strong>Probleme</strong>, Ideen um den <strong>Bot besser zu machen</strong> hast oder bei der <strong>Übersetzung</strong> helfen willst, kannst du mich gerne <strong>anschreiben:</strong> @zlyfer.",
@@ -20,7 +21,8 @@
    "button": "Lade Telegram Beta",
    "select": "Bitte wähle eine Sprache:",
    "flag": "🇩🇪",
-   "languagename": "Deutsch"
+   "languagename": "Deutsch",
+   "code": "de"
   },
   "ru": {
    "start": "<strong>Здравствуйте!</strong>\n\nНажмите на Inline-кнопку чтобы получить APK тестовой версии Telegram.\n<strong>Удачи!</strong>\n\n<strong>Информация:</strong> <i>Этот бот поддерживает только</i> <strong>ОС Android</strong>.\n\nЕсли у Вас есть <strong>какие-либо трудности</strong>, идеи <strong>для улучшения бота</strong> или желание <strong>перевести</strong> его в на ваш язык, тогда <strong>обращайтесь</strong> к @zlyfer.",
@@ -31,7 +33,8 @@
    "button": "Скачать Telegram Beta",
    "select": "Выберите язык:",
    "flag": "🇷🇺",
-   "languagename": "Русский"
+   "languagename": "Русский",
+   "code": "ru"
   },
   "uk": {
    "start": "<strong>Здравствуйте!</strong>\n\nНатисніть на Inline-кнопку щоб отримати Telegram-Beta APK.\n<strong>Щасти!</strong>\n\n<strong>Інформація:</strong> <i>Цей бот підтримує лише</i> <strong>ОС Android</strong>.\n\nЯкщо у Вас виникли <strong>будь-які проблеми</strong>, або Ви маєте ідеї <strong>для покращення бота</strong> чи хочете <strong>перевести</strong> бота (покращити переклад), <strong>звертайтеся</strong> до мене: @zlyfer.",
@@ -42,7 +45,8 @@
    "button": "Завантажити Telegram Beta",
    "select": "Будь ласка, виберіть мову:",
    "flag": "🇺🇦",
-   "languagename": "Yкраїнський"
+   "languagename": "Yкраїнський",
+   "code": "uk"
   },
   "pt-br": {
    "start": "<strong>Olá</strong>\n\nClique no botão do teclado para baixar o APK do Telegram Beta.\n<strong>Divirta-se!</strong>\n\n<strong>Informação:</strong> <i>Este bot suporta apenas</i> <strong>Android OS</strong>.\n\nSe você encontrar <strong>algum erro</strong>, tiver ideias a fim de <strong>tornar o bot melhor</strong> ou quiser ajudar a <strong>traduzir</strong> o bot, sinta-se à vontade para <strong>contatar</strong> o @zlyfer.",
@@ -53,7 +57,8 @@
    "button": "Baixar o Telegram Beta",
    "select": "Selecione um idioma:",
    "flag": "🇵🇹",
-   "languagename": "Português"
+   "languagename": "Português",
+   "code": "pt-br"
   },
   "tr": {
    "start": "<strong>Merhaba!</strong>\n\nButona tıklayarak Telegram Beta-APK indir.\n<strong>İyi Eğlenceler!</strong>\n\n<strong>Bilgi:</strong> <i>Bu bot sadece</i> <strong>Android Kullanıcıları içindir.</strong>.\n\nEğer bize katkı yapmak <strong>any issues</strong>, yardım etmek <strong>ve botu daha iyi hale getirmek istiyorsan</strong> bunun için <strong>çeviri</strong> yapabilirsin, istediğin zaman benimle <strong>iletişime geçebilirsin</strong> @zlyfer.",
@@ -64,7 +69,8 @@
    "button": "Telegram Beta Versiyon İndir",
    "select": "Lütfen Dilinizi Seçin:",
    "flag": "🇹🇷",
-   "languagename": "Türkçe"
+   "languagename": "Türkçe",
+   "code": "tr"
   },
   "it": {
    "start": "<strong>Ciao!</strong>\n\nClicca sul Pulsante-Tastiera per avere l'APK di Telegram-Beta.\n<strong>Divertiti!</strong>\n\n<strong>Info:</strong> <i>Questo bot supporta solo </i> <strong>Dispositivi Android</strong>.\n\nSe stai avendo <strong>qualche problema</strong>, hai qualche idea per <strong>rendere il bot migliore </strong> o vuoi fornire <strong>traduzioni</strong> per il bot, sentiti libero di <strong>contattare</strong> @zlyfer.",
@@ -75,7 +81,8 @@
    "button": "Scarica Telegram Beta",
    "select": "Per favore, scegli una lingua:",
    "flag": "🇮🇹",
-   "languagename": "Italiano"
+   "languagename": "Italiano",
+   "code": "it"
   }
  }
 }
