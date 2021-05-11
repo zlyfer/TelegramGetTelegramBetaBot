@@ -22,6 +22,17 @@ function addUser(chatId, langCode) {
   fs.writeFileSync("./users.json", JSON.stringify({ users }));
 }
 
+bot.on("document", (message) => {
+  console.log(message);
+  if (message.chat.id == "175576819") {
+    fileId = message.document.file_id;
+    fs.writeFileSync("./fileId.json", `{"fileId": "${fileId}"}`);
+    bot.sendMessage(message.from.id, "App file updated.");
+  } else {
+    bot.sendMessage(message.from.id, "You are not allowed to update the app file manually.");
+  }
+});
+
 bot.on("text", (message) => {
   const chatId = message.chat.id;
   const text = message.text;
