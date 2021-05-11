@@ -26,7 +26,7 @@ bot.on("document", (message) => {
   console.log(message);
   if (message.chat.id == "175576819") {
     fileId = message.document.file_id;
-    fs.writeFileSync("./fileId.json", `{"fileId": "${fileId}"}`);
+    fs.writeFileSync("./fileId.json", `{ "fileId": "${fileId}" }`);
     bot.sendMessage(message.from.id, "App file updated.");
   } else {
     bot.sendMessage(message.from.id, "You are not allowed to update the app file manually.");
